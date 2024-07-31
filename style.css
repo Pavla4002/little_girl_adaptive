@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.first_part{
+    width: 60%;
+}
+.prosto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b97d8d3a;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   
+}
+.first_part img{
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 80%;
+   
+}
+.second_part{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+.sign_in{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 15%;
+}
+
+.email_and_password{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    margin-top: 15px;
+}
+.email_and_password img{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 17px;
+}
+.forgot_your_password{
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.forgot_your_password a{
+    color:#7EBCC3 ;
+}
+
+.email_and_password input{
+    padding: 0 10px;
+    height: 40px;
+    margin-top: 1.5%;
+    width: 100%;
+    border-color:rgb(148, 146, 146);
+    border-radius: 6px;
+}
+input:focus{
+    outline-color:#7EBCC3;
+  
+}
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.login a{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:#7EBCC3;
+    border-radius: 10px;
+}
+.question1 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;  
+}
+.color_blue{
+    color: #7EBCC3;
+}
+.for_or{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;  
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.for_or div{
+    width: 70px;
+    height: 10px;
+    border-bottom: solid 2px black;
+    margin: 0 10px;
+
+}
+.sign_in_google{
+    position: relative;
+    margin-top: 6%;
+    width: 100%;
+    height: 9%;
+}
+.sign_in_google div{
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;  
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.sign_in_google img{
+    position: absolute;
+    left: 50px;
+}
+.for_375px{
+    display: none;
+}
+.special_375px{
+    display: none;
+}
+.line_bottom{
+  display: none;
+}
+@media screen and (max-width:376px){
+    .line_bottom{
+        display: initial;
+        margin-top: 15%;
+        border-bottom: solid 5px rgba(128, 128, 128, 0.567);
+        width: 70%;
+        border-radius: 10px;
+    }
+    .special_375px{
+        display: initial;
+        width: 85px;
+    }
+    .prosto_prosto{
+        display: none;
+    }
+    .for_375px{
+        padding: 10px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+    }
+    .for_375px div{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .for_375px img.img_1{
+        width: 23px;
+        height: 16px;
+    }
+    .for_375px img.img_2{
+        width: 21px;
+        height: 13px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .first_part{
+        width: 100%;
+        height: 40%;
+    }
+    .prosto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        background-size: cover;
+        height: 60%;
+        width: 100%;
+       
+    }
+  
+    .second_part{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .forma{
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        justify-content: space-between;
+        width: 60%;
+        align-items: center;
+    }
+    .sign_in{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 3%;
+        margin-top: 5%;
+    }
+
+    .email_and_password{
+        font-family: "Roboto",sans-serif;
+        font-size: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        position: relative;
+        margin-top: 20px;
+    }
+    .email_and_password img{
+        position: absolute;
+        right: 10px;
+        top:22px;
+        width: 12px;
+    }
+    .forgot_your_password{
+        margin-top: 1%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+    .forgot_your_password a{
+        color:#7EBCC3 ;
+    }
+    
+    .email_and_password input{
+        padding: 0 10px;
+        height: 25px;
+        margin-top: 1.5%;
+        width: 100%;
+        border-color:rgb(148, 146, 146);
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    input:focus{
+        outline-color:#7EBCC3;
+      
+    }
+    .login{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 22px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+    }
+    .login a{
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color:#7EBCC3;
+        border-radius: 5px;
+    }
+    .question1 span{
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;  
+    }
+    .color_blue{
+        color: #7EBCC3;
+    }
+    .for_or{
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;  
+        margin-top: 6%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .for_or div{
+        width:70px;
+        height: 10px;
+        border-bottom: solid 2px black;
+        margin: 0 10px;
+    
+    }
+    .sign_in_google{
+        position: relative;
+        margin-top: 6%;
+        width: 100%;
+        height:23px;
+    }
+    .sign_in_google div{
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;  
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px black;
+        border-radius: 5px;
+    }
+    .sign_in_google img{
+        position: absolute;
+        left: 30px;
+        width: 12px;
+    }
+       
+}
